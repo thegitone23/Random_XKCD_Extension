@@ -1,0 +1,18 @@
+{
+
+"manifest_version" : 2,
+"name" : "XKCD Test Extension",
+"version" : "0.1",
+
+"permissions": [
+	"activeTab",
+	"https://*/"
+],
+
+"browser_action": {
+	"browser_style" : true,
+	"default_title":"Extension_Overloaded",
+	"default_popup":"popup/main.html"
+}
+
+}
